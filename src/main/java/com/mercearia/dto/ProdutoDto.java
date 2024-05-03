@@ -15,7 +15,7 @@ public record ProdutoDto(
         double preco,
 
         int estoque,
-        @JsonIgnore
+        
         int quantidade,
 
         double total) {
